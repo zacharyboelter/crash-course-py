@@ -30,13 +30,21 @@ import sys
 
 
 
+# if __name__ == '__main__':
+#     n = int(input().strip())
+#     if n % 2 == 1:
+#         print('Weird')
+#     elif n % 2 == 0 and n in range(2, 6):
+#         print('Not Weird')
+#     elif n % 2 == 0 and n in range(6, 21):
+#         print('Weird')    
+#     elif n % 2 == 0 and n > 20:
+#         print('Not Weird')    
+
+
+# The provided code stub reads and integer, , from STDIN. For all non-negative integers , print . 
+
 if __name__ == '__main__':
-    n = int(input().strip())
-    if n % 2 == 1:
-        print('Weird')
-    elif n % 2 == 0 and n in range(2, 6):
-        print('Not Weird')
-    elif n % 2 == 0 and n in range(6, 21):
-        print('Weird')    
-    elif n % 2 == 0 and n > 20:
-        print('Not Weird')    
+    n = int(input())
+    for i in range(n):
+        print(i * i)
