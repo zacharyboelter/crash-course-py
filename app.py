@@ -44,7 +44,26 @@ import sys
 
 # The provided code stub reads and integer, , from STDIN. For all non-negative integers , print . 
 
-if __name__ == '__main__':
-    n = int(input())
-    for i in range(n):
-        print(i * i)
+# if __name__ == '__main__':
+#     n = int(input())
+#     for i in range(n):
+#         print(i * i)
+
+
+def is_leap(year):
+    leap = False
+    
+    if year % 4 == 0:
+        if year % 100 == 0:
+            if year % 400 == 0:
+                return leap == True
+            else:
+                 return leap == False
+        else:
+             return leap == False
+    else:
+        return leap == True
+
+    return leap
+
+year = int(input())
