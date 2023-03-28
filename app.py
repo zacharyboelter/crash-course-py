@@ -56,14 +56,13 @@ def is_leap(year):
     if year % 4 == 0:
         if year % 100 == 0:
             if year % 400 == 0:
-                return leap == True
+                return True
             else:
-                 return leap == False
+                 return False
         else:
-             return leap == False
+             return True
     else:
-        return leap == True
+        return False
 
-    return leap
 
 year = int(input())
