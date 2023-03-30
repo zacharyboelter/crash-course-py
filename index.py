@@ -45,3 +45,25 @@ print("There will be", cars_not_driven, "empty cars today.")
 print("We can transport", carpool_capacity, "people today.")
 print("We have", passengers, "to carpool today.")
 print("We need to put about", average_passengers_per_car, "in each car.")
+
+name = 'Zachary'
+age = 33
+height = 74
+weight = 240
+eye_color = 'blue'
+teeth_color = 'white'
+hair_color = 'blonde'
+height_in_ft = height / 12
+total = age + height + weight
+
+height_in_cm = height * 2.54
+weight_in_kg = weight / 2.205
+
+
+print(f'Lets talk about {name}.')
+print(f'He is {height} inches tall ({height_in_ft}).')
+print(f'He weighs {weight} pounds. (Yeah, fat boy).')
+print(f'He has {eye_color} eyes and {hair_color} color hair.')
+print(f'His teeth are usually {teeth_color}, depending on the coffee/wine situation.')
+print(f'If you add {age}, {height}, and {weight} you get {total}')
+print(f'In england he is {height_in_cm} cm tall and weighs {weight_in_kg} kilos')
