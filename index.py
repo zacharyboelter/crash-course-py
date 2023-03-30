@@ -30,14 +30,14 @@
 # print("Is it less or equal?", 5 <= -2)
 
 
-cars = 100
-space_in_a_car = 4.0
-drivers = 30
-passengers = 30
-cars_not_driven = cars - drivers
-cars_driven = drivers
-carpool_capacity = cars_driven * space_in_a_car
-average_passengers_per_car = passengers / cars_driven
+cars = 100      # how mamy total cars
+space_in_a_car = 4.0  # how much room in car
+drivers = 30  # num of drivers
+passengers = 30  # num of passengers
+cars_not_driven = cars - drivers  # num cars not driven
+cars_driven = drivers  # cars in use
+carpool_capacity = cars_driven * space_in_a_car  #num of people to move
+average_passengers_per_car = passengers / cars_driven #need of people to move
 
 print("there are", cars, "cars available.")
 print("There are only", drivers, "drivers available.")
