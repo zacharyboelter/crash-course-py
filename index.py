@@ -79,3 +79,6 @@ y = f'Those that know {binary}, and those that {do_not}.'
 
 print(x)
 print(y)
+
+print(f'I said: {x}.')
+print(f'I also said: {y}.')
