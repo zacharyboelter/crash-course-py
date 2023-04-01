@@ -82,3 +82,14 @@ print(y)
 
 print(f'I said: {x}.')
 print(f'I also said: {y}.')
+
+hilarious = False
+joke_eval = "Isn't that joke so funny?! {}"
+
+print(joke_eval.format(hilarious))
+
+w = 'This is the left side of a string...'
+
+e = 'that has a right side.'
+
+print(w + e)
