@@ -67,3 +67,15 @@ print(f'He has {eye_color} eyes and {hair_color} color hair.')
 print(f'His teeth are usually {teeth_color}, depending on the coffee/wine situation.')
 print(f'If you add {age}, {height}, and {weight} you get {total}')
 print(f'In england he is {height_in_cm} cm tall and weighs {weight_in_kg} kilos')
+
+
+types_of_people = 10
+x = f'There are {types_of_people} types of people in this world.'
+
+binary = 'binary'
+do_not = "don't"
+
+y = f'Those that know {binary}, and those that {do_not}.'
+
+print(x)
+print(y)
