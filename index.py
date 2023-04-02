@@ -117,13 +117,19 @@ end12 = 'r'
 
 formatter = "{} {} {} {}"
 
-print(formatter.format(1, 2, 3, 4))
-print(formatter.format('one', 'two', 'three', 'four'))
-print(formatter.format(True, False, False, True))
-print(formatter.format(formatter, formatter, formatter, formatter))
-print(formatter.format(
-    "I am unsure",
-    "as to why she avoids",
-    "my calls these days",
-    "all i want is an egg roll or two."
-))
+# print(formatter.format(1, 2, 3, 4))
+# print(formatter.format('one', 'two', 'three', 'four'))
+# print(formatter.format(True, False, False, True))
+# print(formatter.format(formatter, formatter, formatter, formatter))
+# print(formatter.format(
+#     "I am unsure",
+#     "as to why she avoids",
+#     "my calls these days",
+#     "all i want is an egg roll or two."
+# ))
+
+days = "Mon Tue Wed Thu Fri Sat Sun"
+months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
+
+print("Here are the days: ", days)
+print("Here are the months: ", months)
