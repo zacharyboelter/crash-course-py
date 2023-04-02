@@ -39,12 +39,12 @@ cars_driven = drivers  # cars in use
 carpool_capacity = cars_driven * space_in_a_car  #num of people to move
 average_passengers_per_car = passengers / cars_driven #need of people to move
 
-print("there are", cars, "cars available.")
-print("There are only", drivers, "drivers available.")
-print("There will be", cars_not_driven, "empty cars today.")
-print("We can transport", carpool_capacity, "people today.")
-print("We have", passengers, "to carpool today.")
-print("We need to put about", average_passengers_per_car, "in each car.")
+# print("there are", cars, "cars available.")
+# print("There are only", drivers, "drivers available.")
+# print("There will be", cars_not_driven, "empty cars today.")
+# print("We can transport", carpool_capacity, "people today.")
+# print("We have", passengers, "to carpool today.")
+# print("We need to put about", average_passengers_per_car, "in each car.")
 
 name = 'Zachary'
 age = 33
@@ -60,13 +60,13 @@ height_in_cm = height * 2.54
 weight_in_kg = weight / 2.205
 
 
-print(f'Lets talk about {name}.')
-print(f'He is {height} inches tall ({height_in_ft}).')
-print(f'He weighs {weight} pounds. (Yeah, fat boy).')
-print(f'He has {eye_color} eyes and {hair_color} color hair.')
-print(f'His teeth are usually {teeth_color}, depending on the coffee/wine situation.')
-print(f'If you add {age}, {height}, and {weight} you get {total}')
-print(f'In england he is {height_in_cm} cm tall and weighs {weight_in_kg} kilos')
+# print(f'Lets talk about {name}.')
+# print(f'He is {height} inches tall ({height_in_ft}).')
+# print(f'He weighs {weight} pounds. (Yeah, fat boy).')
+# print(f'He has {eye_color} eyes and {hair_color} color hair.')
+# print(f'His teeth are usually {teeth_color}, depending on the coffee/wine situation.')
+# print(f'If you add {age}, {height}, and {weight} you get {total}')
+# print(f'In england he is {height_in_cm} cm tall and weighs {weight_in_kg} kilos')
 
 
 types_of_people = 10
@@ -77,19 +77,23 @@ do_not = "don't"
 
 y = f'Those that know {binary}, and those that {do_not}.'
 
-print(x)
-print(y)
+# print(x)
+# print(y)
 
-print(f'I said: {x}.')
-print(f'I also said: {y}.')
+# print(f'I said: {x}.')
+# print(f'I also said: {y}.')
 
 hilarious = False
 joke_eval = "Isn't that joke so funny?! {}"
 
-print(joke_eval.format(hilarious))
+# print(joke_eval.format(hilarious))
 
 w = 'This is the left side of a string...'
 
 e = 'that has a right side.'
 
-print(w + e)
+# print(w + e)
+
+print('Mary had a little lamb.')
+print('Its fleece as white as {}'.format('snow'))
+print('.' * 10)
