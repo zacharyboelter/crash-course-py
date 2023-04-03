@@ -36,8 +36,8 @@ drivers = 30  # num of drivers
 passengers = 30  # num of passengers
 cars_not_driven = cars - drivers  # num cars not driven
 cars_driven = drivers  # cars in use
-carpool_capacity = cars_driven * space_in_a_car  #num of people to move
-average_passengers_per_car = passengers / cars_driven #need of people to move
+carpool_capacity = cars_driven * space_in_a_car  # num of people to move
+average_passengers_per_car = passengers / cars_driven  # need of people to move
 
 # print("there are", cars, "cars available.")
 # print("There are only", drivers, "drivers available.")
@@ -139,3 +139,18 @@ print("""
 ... We'll be able to type as much as we like.
 ... Even 4 lines if we want, or 5, or 6.
 ... """)
+
+tabby_cat = "\tI'm tabbed in."
+persian_cat = "i'm split\non a line."
+backslash_cat = "i'm \\ a \\ cat."
+fat_cat = """
+I'll do a list:
+\t* Cat food
+\t* Fishies
+\t* Catnip\n\t* Grass
+"""
+
+print(tabby_cat)
+print(persian_cat)
+print(backslash_cat)
+print(fat_cat)
