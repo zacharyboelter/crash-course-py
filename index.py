@@ -157,11 +157,11 @@ I'll do a list:
 
 # EXERCISE 11
 
-print('How old are you? ', end='')
+print('How old are you?', end=' ')
 age = input()
-print('How tall are you? ', end='')
+print('How tall are you?', end=' ')
 height= input()
-print('How fat are you? ', end='')
+print('How fat are you?', end=' ')
 weight = input()
 
-print(f'So you are {age} years old, {height} inches tall and your fat ass weighs {weight}?! Good lord!')
+print(f'So you are {age} years old, {height} inches tall and your fat ass weighs {weight} pounds?! Good lord!')
