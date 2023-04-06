@@ -131,14 +131,14 @@ formatter = "{} {} {} {}"
 days = "Mon Tue Wed Thu Fri Sat Sun"
 months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 
-print("Here are the days: ", days)
-print("Here are the months: ", months)
-print("""
-... There's something going on here.
-... With the three double-quotes.
-... We'll be able to type as much as we like.
-... Even 4 lines if we want, or 5, or 6.
-... """)
+# print("Here are the days: ", days)
+# print("Here are the months: ", months)
+# print("""
+# ... There's something going on here.
+# ... With the three double-quotes.
+# ... We'll be able to type as much as we like.
+# ... Even 4 lines if we want, or 5, or 6.
+# ... """)
 
 tabby_cat = "\tI'm tabbed in."
 persian_cat = "i'm split\non a line."
@@ -150,7 +150,18 @@ I'll do a list:
 \t* Catnip\n\t* Grass
 """
 
-print(tabby_cat)
-print(persian_cat)
-print(backslash_cat)
-print(fat_cat)
+# print(tabby_cat)
+# print(persian_cat)
+# print(backslash_cat)
+# print(fat_cat)
+
+# EXERCISE 11
+
+print('How old are you? ', end='')
+age = input()
+print('How tall are you? ', end='')
+height= input()
+print('How fat are you? ', end='')
+weight = input()
+
+print(f'So you are {age} years old, {height} inches tall and your fat ass weighs {weight}?! Good lord!')
