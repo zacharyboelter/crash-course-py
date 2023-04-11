@@ -165,3 +165,7 @@ print('How fat are you?', end=' ')
 weight = input()
 
 print(f'So you are {age} years old, {height} inches tall and your fat ass weighs {weight} pounds?! Good lord!')
+
+“from sys import argv    #
+read the WYSS section for how to run this 3    script, first, second, third = argv 4 5    print("The script is called:", script) 6    print("Your first variable is:", first) 7    print("Your second variable is:", second) 8    print("Your third variable is:", third)”
+
